@@ -1,0 +1,67 @@
+html {
+    background-color: black;
+}
+.shoplol {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+}
+.picture {
+ width: 100%;
+}
+.conteiner {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.price {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.description {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.fulldescription {
+    color: grey;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.card {
+    width: 252px;
+}
+.button {
+  background-color: rgb(9, 9, 112);
+  display: block;
+  margin: 0 auto;
+  margin-top: 232px;
+  font-size: 75px;
+  padding-top: 10px;
+  border-radius: 50px;
+  padding: 10px 30px;
+  border: 0;
+}
+ a {
+    text-decoration:none;
+}
+.btn {
+    width: 100%;
+    background-color:white;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 20px;
+    
+}

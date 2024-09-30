@@ -1,0 +1,123 @@
+html {
+    background-color:black;
+}
+.oholelo {
+    display: flex;
+    list-style-type: none;
+    gap: 150px;
+justify-content: center;
+    
+}
+.img{
+   margin: 0 auto;
+   height: 55vh;
+   width: 40%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+.krug {
+    background-color:rgb(18, 19, 80);
+    border-radius: 80%;
+    padding: 30px;
+    border: 20px solid rgb(47, 56, 189);
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(circle, #5d5f57, #0000ff);
+}
+.fly {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+    transition: transform 2s ease-in-out, opacity 2s ease-in-out;
+    font-size: 50px;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.amimate {
+    transform: translateY(-500px);
+    opacity: 0;
+}
+.oholelo {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    color:rgb(18, 19, 80);
+}
+li {
+    width: 300px;
+    padding: 5px 10px;
+    border: 1px solid rgb(240, 230, 232);
+    border-radius: 25px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    
+}
+li:active {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 5px rgba(240, 241, 241, 0.3); 
+}
+li:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(240, 241, 241, 0.3); 
+}
+li img {
+    width: 50px;
+   margin-top: 7.5px;
+}
+.menu img {
+    width: 50px;
+}
+.menu {
+    display: flex;
+    justify-content: end;
+    gap: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    
+}
+.rocletlol {
+    margin-right: 1052px;
+}
+.coin img {
+    width: 80px;
+}
+.coin {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+    gap: 20px;
+}
+.count {
+    font-size: 85px;
+    color: white;
+    font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.basket {
+    filter: invert(100%) sepia(100%) saturate(300%) hue-rotate(120deg); 
+}
+.login {
+        filter: invert(100%) sepia(100%) saturate(300%) hue-rotate(120deg); 
+}
+ul a {
+    text-decoration:none;
+}

@@ -1,0 +1,132 @@
+html {
+background-color: black;
+}
+.o {
+color: white;
+display: flex;
+justify-content: center;
+font-size: 50px;
+}
+.n {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 75px;
+    }
+    .shoplol {
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 45px;
+    }
+    .picture {
+     width: 100%;
+    }
+    .conteiner {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .price {
+        color: white;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .description {
+        color: white;
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .fulldescription {
+        color: grey;
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .card {
+        width: 220px;
+    }
+    
+    .button {
+      background-color: rgb(9, 9, 112);
+      display: block;
+      margin: 0 auto;
+      margin-top: 232px;
+      font-size: 75px;
+      padding-top: 10px;
+      border-radius: 50px;
+      padding: 10px 30px;
+      border: 0;
+     
+    }
+    button{
+        cursor: pointer;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+    button:active {
+        transform: scale(0.95);
+        box-shadow: 0px 2px 5px rgba(240, 241, 241, 0.3); 
+    }
+    button:hover {
+        transform: scale(1.05); 
+        box-shadow: 0px 8px 15px rgba(240, 241, 241, 0.3); 
+    }
+    .btn {
+        width: 100%;
+        background-color:white;
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        border-radius: 20px;
+        margin-bottom: 15px;
+    }
+    .buttonlol {
+        width: 200px;
+        font-family: "Lato", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        border-radius: 20px;
+        margin-bottom:50px;
+        background-color:rgb(237, 247, 236)
+    }
+    .gun {
+        display:flex;
+    }
+    .bronya {
+        display: none;
+    }
+    .drbro {
+        display: none;
+        justify-content:start;
+        gap: 200px;
+        margin-left: 200px;
+    }
+    .soprovod {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .wrap {
+        display: flex;
+        justify-content:center;
+        gap: 300px;
+        margin-bottom:100px ;
+        
+    }
+    .wrap .card {
+        width: 350px;
+        }
+      .viplol {
+        color: white;
+        text-align: center;
+      }
+                                                                                          
