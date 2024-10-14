@@ -1,0 +1,27 @@
+html {
+    background-color: black;
+}
+.lol {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.loh {
+    color: white;
+    font-size: 20px;
+}
+.lov {
+    color: white;
+    font-size: 30px;
+    margin-top: 100px;
+    
+}
+.loi {
+    color: white;
+    font-size: 30px;
+   margin-top: 10px;
+  
+}
+a {
+    text-decoration: none;
+}
